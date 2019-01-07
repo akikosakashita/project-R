@@ -1,3 +1,30 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 @import "bootstrap";
+
+.hero {
+  background:  url(../images/2-1.png) 0 0 no-repeat / cover;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 60%;
+  }
+}
+.sns-cover {
+  background-color: orange!important;
+}
+.sns {
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .sns-cover {
+    padding: 5px!important;
+    .sns {
+      display: none;
+    }
+  }
+}
