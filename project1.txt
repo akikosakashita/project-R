@@ -1,4 +1,4 @@
-﻿
+
 #top
 
 Welcome to the website of Russell Goodall, Japanese interpreter
@@ -81,7 +81,7 @@ Personal History
 
 
 
-＃<h2>Experience 翻訳･通訳 実績</h2>
+＃<h2>Experience</h2> 翻訳･通訳 実績
 
 
 

@@ -95,7 +95,7 @@
 
 .about {
     width: 100%;
-    height: 2000px;
+    height: 2340px;
     // background-color: #ddd;
     padding: 150px 20px 20px 20px;
 
@@ -150,11 +150,10 @@
  }
 
         .history {
-            width: 100%;
+            width: 100%!important;
             height: 1000px;
-            padding: 10px 10px 10px 10px;
+            padding: 50px 0 10px 0;
             background-color: #ddd;
-            float:left;
 
             .header-2 {
                 border-bottom: 2px solid #444;
@@ -175,12 +174,38 @@
 
 .experience {
     width: 100%;
-    height: 800px;
+    height: 2000px;
 
     .ex {
         width: 100%;
         height: 1000px;
         background-color: #aaa;
+        .side-e {
+            width: 250px;
+            height: 1000px;
+            text-align: center;
+            padding-top: 60px;
+            float:left;
+        }
+        .ex-a {
+            border: 1px dotted #ddd;
+            width: 860px;
+            height: 1000px;
+           padding-top: 60px;
+            float:left;
+            .ex-b {
+                border: 1px dotted #e82;
+            }
+            .ex-c {
+                border: 1px dotted #e82;
+            }
+            .ex-d {
+                border: 1px dotted #e82;
+            }
+            .ex-e {
+                border: 1px dotted #e82;
+            }
+        }
     }
     .sample {
         width: 100%;
