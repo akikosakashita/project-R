@@ -297,7 +297,6 @@
     }
 
     .sample {
-        border: 1px dotted black;
         width: 100%;
         height: 1000px;
         background-color: #ddd;
@@ -307,7 +306,6 @@
             height: 500px;
 
             .vt-t {
-                border: 1px dotted black;
                 width: 1110px;
                 height: 100px;
                 float: left;
@@ -340,14 +338,12 @@
             }
 
             .side-vs {
-                border: 1px dotted black;
                 width: 250px;
                 height: 400px;
                 float: left;
             }
 
             .s-box {
-                border: 1px dotted black;
                 width: 860px;
                 height: 400px;
                 float: left;
@@ -427,7 +423,7 @@
 
                         video {
                             width: 200px;
-                            height: 50px;
+                            height: 60px;
                             margin-left: 20px;
                         }
                     }
@@ -454,7 +450,7 @@
 
                         video {
                             width: 200px;
-                            height: 50px;
+                            height: 60px;
                             margin-left: 20px;
                         }
                     }
@@ -480,8 +476,8 @@
                 float: left;
 
                 .vi-1 {
-                    border: 1px solid #ddd;
-                    width: 857px;
+                    border-bottom: 1px solid #ddd;
+                    width: 860px;
                     height: 150px;
                     float: left;
                     background-color: #888;
