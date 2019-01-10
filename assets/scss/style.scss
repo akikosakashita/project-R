@@ -13,13 +13,14 @@
 }
 
 @mixin top-box-style {
-              width: 305px;
-            height: 200px;
-            background-color: orange;
-            float: left;
-            padding: 10px 0 0 10px;
-            border-right: 1px solid #ddd;
+    width: 305px;
+    height: 200px;
+    background-color: orange;
+    float: left;
+    padding: 10px 0 0 10px;
+    border-right: 1px solid #ddd;
 }
+
 //*mixin定義////ここまで/*///////////////////////////////////////////////////////
 
 
@@ -48,7 +49,7 @@
         float: left;
 
         .box-1 {
-    @include top-box-style;
+            @include top-box-style;
 
             img {
                 height: 100%;
@@ -80,7 +81,8 @@
         }
 
         .box-4 {
-           @include top-box-style;
+            @include top-box-style;
+
             img {
                 height: 60%;
                 object-fit: cover;
@@ -109,7 +111,6 @@
 .about {
     width: 100%;
     height: 2340px;
-    // background-color: #ddd;
     padding: 150px 20px 20px 20px;
 
     .profile {
@@ -160,7 +161,6 @@
             width: 400px;
             height: 700px;
             margin: 100px 0 0 10px;
-            // background-color: #444;
             float: left;
 
             p {
@@ -196,6 +196,7 @@
 .experience {
     width: 100%;
     height: 2500px;
+
     .ex {
         width: 100%;
         height: 1200px;
@@ -223,7 +224,7 @@
                 }
 
                 .ex-bt {
-                    padding-left:30px;
+                    padding-left: 30px;
                 }
             }
 
@@ -234,6 +235,7 @@
                 h3 {
                     @include ex-style;
                 }
+
                 .ex-ct {
                     padding-left: 30px;
                 }
@@ -271,19 +273,22 @@
                 border: 2px solid #444;
                 background-color: lightgray;
                 border-radius: 15px;
+
                 .ex-h4 {
-                   width: 857px;
-                   height: 35px;
-                   background-color: #444;
-                   margin-bottom: 10px;
-                   border-radius: 15px 15px 0 0;
-                h4 {
-                    color: #fff;
-                    padding-left: 30px;
-                    height:35px;
-                    line-height: normal;
+                    width: 857px;
+                    height: 35px;
+                    background-color: #444;
+                    margin-bottom: 10px;
+                    border-radius: 15px 15px 0 0;
+
+                    h4 {
+                        color: #fff;
+                        padding-left: 30px;
+                        height: 35px;
+                        line-height: normal;
+                    }
                 }
-                }
+
                 .ex-et {
                     padding-left: 30px;
                 }
@@ -291,305 +296,329 @@
         }
     }
 
-.sample {
-    border:1px dotted black;
-    width: 100%;
-    height: 1000px;
-    background-color: #ddd;
-    .voice {
-        width: 1110px;
-        height: 500px;
-        .vt-t {
-            border:1px dotted black;
+    .sample {
+        border: 1px dotted black;
+        width: 100%;
+        height: 1000px;
+        background-color: #ddd;
+
+        .voice {
             width: 1110px;
-            height: 100px;
-            float: left;
-            .vt {
-                width: 250px;
-                height: 100px;
-                text-align: center;
-                float:left;
-                padding-top: 30px;
-                h2 {
-                    width: 250px;
-                    height: 100px;
-                }
-            }
-            .v-lead {
-                width: 857px;
+            height: 500px;
+
+            .vt-t {
+                border: 1px dotted black;
+                width: 1110px;
                 height: 100px;
                 float: left;
-                padding-top: 30px;
-                p {
-                    font-size:20px;
-                    width: 857px;
-                    height: 100px;
-                }
-            }
-        }
-        .side-vs {
-            border:1px dotted black;
-            width: 250px;
-            height: 400px;
-            float: left;
-        }
-        .s-box {
-            border:1px dotted black;
-        width: 860px;
-        height: 400px;
-        float: left;
-        .s1{
-            border:1px solid #ddd;
-            width: 860px;
-            height: 100px;
-            background-color: orange;
-            .s1-a {
-            width: 600px;
-            height: 100px;
-            padding: 30px 0 0 30px;
-            float:left;
-            }
-            .s1-b {
-            width: 258px;
-            height: 100px;
-            padding: 30px 0 0 0;
-            float:left;
-            video {
-                width: 200px;
-                height: 50px;
-                margin-left:20px;
-            }
-        }
-    }
-        .s2 {
-            border:1px solid #ddd;
-            width: 860px;
-            height: 100px;
-            background-color: orange;
 
-            .s2-a {
-            width: 600px;
-            height: 100px;
-            padding: 30px 0 0 30px;
-            float:left;
-            }
-            .s2-b {
-            width: 258px;
-            height: 100px;
-            padding: 30px 0 0 0;
-            float:left;
-            video {
-                width: 200px;
-                height: 50px;
-                margin-left:20px;
-            }
-        }
-        }
-        .s3 {
-            border:1px solid #ddd;
-            width: 860px;
-            height: 100px;
-            background-color: orange;
-            .s3-a {
-            width: 600px;
-            height: 100px;
-            padding: 30px 0 0 30px;
-            float:left;
-            }
-            .s3-b {
-            width: 258px;
-            height: 100px;
-            padding: 30px 0 0 0;
-            float:left;
-            video {
-                width: 200px;
-                height: 50px;
-                margin-left:20px;
-            }
-        }
-        }
-        .s4 {
-            border:1px solid #ddd;
-            width: 860px;
-            height: 100px;
-            background-color: orange;
-            .s4-a {
-            width: 600px;
-            height: 100px;
-            padding: 30px 0 0 30px;
-            float:left;
-            }
-            .s4-b {
-            width: 258px;
-            height: 100px;
-            padding: 30px 0 0 0;
-            float:left;
-            video {
-                width: 200px;
-                height: 50px;
-                margin-left:20px;
-            }
-        }
-        }
-    }
-}
-.video {
-        width: 1110px;
-        height: 300px;
-        margin-top: 20px;
-        .side-vi {
-            width: 250px;
-            height: 300px;
-            text-align: center;
-            float:left;
-        }
-        .vi-box {
-            width: 857px;
-            height: 300px;
-            float:left;
-            .vi-1 {
-                width: 857px;
-                height: 150px;
-                float:left;
-                background-color: #888;
-                .vi-1a {
-                    width: 600px;
-                    height: 150px;
-                    float:left;
-                    h3,p {
-                        color:#fff;
+                .vt {
+                    width: 250px;
+                    height: 100px;
+                    text-align: center;
+                    float: left;
+                    padding-top: 30px;
+
+                    h2 {
+                        width: 250px;
+                        height: 100px;
                     }
                 }
-                .vi-1b {
-                    width: 254px;
+
+                .v-lead {
+                    width: 857px;
+                    height: 100px;
+                    float: left;
+                    padding-top: 30px;
+
+                    p {
+                        font-size: 20px;
+                        width: 857px;
+                        height: 100px;
+                    }
+                }
+            }
+
+            .side-vs {
+                border: 1px dotted black;
+                width: 250px;
+                height: 400px;
+                float: left;
+            }
+
+            .s-box {
+                border: 1px dotted black;
+                width: 860px;
+                height: 400px;
+                float: left;
+
+                .s1 {
+                    border: 1px solid #ddd;
+                    width: 860px;
+                    height: 100px;
+                    background-color: orange;
+
+                    .s1-a {
+                        width: 600px;
+                        height: 100px;
+                        padding: 30px 0 0 30px;
+                        float: left;
+                    }
+
+                    .s1-b {
+                        width: 258px;
+                        height: 100px;
+                        padding: 30px 0 0 0;
+                        float: left;
+
+                        video {
+                            width: 200px;
+                            height: 50px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .s2 {
+                    border: 1px solid #ddd;
+                    width: 860px;
+                    height: 100px;
+                    background-color: orange;
+
+                    .s2-a {
+                        width: 600px;
+                        height: 100px;
+                        padding: 30px 0 0 30px;
+                        float: left;
+                    }
+
+                    .s2-b {
+                        width: 258px;
+                        height: 100px;
+                        padding: 30px 0 0 0;
+                        float: left;
+
+                        video {
+                            width: 200px;
+                            height: 50px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .s3 {
+                    border: 1px solid #ddd;
+                    width: 860px;
+                    height: 100px;
+                    background-color: orange;
+
+                    .s3-a {
+                        width: 600px;
+                        height: 100px;
+                        padding: 30px 0 0 30px;
+                        float: left;
+                    }
+
+                    .s3-b {
+                        width: 258px;
+                        height: 100px;
+                        padding: 30px 0 0 0;
+                        float: left;
+
+                        video {
+                            width: 200px;
+                            height: 50px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .s4 {
+                    border: 1px solid #ddd;
+                    width: 860px;
+                    height: 100px;
+                    background-color: orange;
+
+                    .s4-a {
+                        width: 600px;
+                        height: 100px;
+                        padding: 30px 0 0 30px;
+                        float: left;
+                    }
+
+                    .s4-b {
+                        width: 258px;
+                        height: 100px;
+                        padding: 30px 0 0 0;
+                        float: left;
+
+                        video {
+                            width: 200px;
+                            height: 50px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .video {
+            width: 1110px;
+            height: 300px;
+            margin-top: 20px;
+
+            .side-vi {
+                width: 250px;
+                height: 300px;
+                text-align: center;
+                float: left;
+            }
+
+            .vi-box {
+                width: 857px;
+                height: 300px;
+                float: left;
+
+                .vi-1 {
+                    border: 1px solid #ddd;
+                    width: 857px;
                     height: 150px;
                     float: left;
-                    video {
-                width: 210px;
-                height: 130px;
-                margin: 10px 5px 10px 20px;
-            }
-         }
-         }
-            .vi-2 {
-                border:1px dotted black;
-                width: 856px;
-                height: 149px;
-                background-color: #888;
-                .vi-2a {
-                    border:1px dotted red;
-                    width: 600px;
-                    height: 150px;
-                    float:left;
+                    background-color: #888;
 
+                    .vi-1a {
+                        width: 600px;
+                        height: 150px;
+                        float: left;
+                        padding:10px 0 0 30px;
+
+                        h3,
+                        p {
+                            color: #fff;
+                        }
+                    }
+
+                    .vi-1b {
+                        width: 254px;
+                        height: 150px;
+                        float: left;
+
+                        video {
+                            width: 210px;
+                            height: 130px;
+                            margin: 10px 5px 10px 20px;
+                        }
+                    }
                 }
-                .vi-2b {
-                    border:1px dotted red;
-                    width: 254px;
-                    height: 150px;
-                    float: left;
-                    video {
-                width: 210px;
-                height: 130px;
-                margin: 10px 5px 10px 20px;
+
+.vi-2 {
+    width: 860px;
+    height: 300px;
+    background-color: #888;
+                    .vi-2a {
+                        width: 600px;
+                        height: 150px;
+                        float: left;
+                        padding:10px 0 0 30px;
+                         h3,
+                        p {
+                            color: #fff;
+                        }
+                    }
+
+                    .vi-2b {
+                        width: 254px;
+                        height: 150px;
+                        float: left;
+
+                        video {
+                            width: 210px;
+                            height: 130px;
+                            margin: 10px 5px 10px 20px;
+                        }
+                    }
             }
+        }
+        }
+
+        @media (max-width: 768px) {
+            .sns-cover {
+                padding: 5px !important;
+                height: 20px;
+
+                .sns {
+
+                    // font-size: 10px;
+                    // display: none;
+                    h5 {
+                        font-size: 10px;
+                    }
+
+                    .fa-facebook {
+                        display: none;
+                    }
                 }
-        }
-    }
-}
-
-
-@media (max-width: 768px) {
-    .sns-cover {
-        padding: 5px !important;
-        height: 20px;
-
-        .sns {
-            // font-size: 10px;
-            // display: none;
-            h5 {
-                font-size: 10px;
             }
 
-            .fa-facebook {
-                display: none;
+            .hero {
+                height: 200px;
             }
-        }
-    }
 
-    .hero {
-        height: 200px;
-    }
+            .box-1 {
+                width: 200px;
+                height: 40% !important;
+                padding-top: 10px;
+                border-bottom: 1px solid #999;
 
-    .box-1 {
-        width: 200px;
-        height: 40% !important;
-        padding-top: 10px;
-        border-bottom: 1px solid #999;
-        .img {
-            height: 40%;
-            object-fit: cover;
-        }
-    }
+                .img {
+                    height: 40%;
+                    object-fit: cover;
+                }
+            }
 
-    .box-2 {
-        width: 200px;
-        height: 40% !important;
-        padding-top: 10px;
-        border-bottom: 1px solid #999;
-        .img {
-            height: 40%;
-            object-fit: cover;
-        }
-    }
+            .box-2 {
+                width: 200px;
+                height: 40% !important;
+                padding-top: 10px;
+                border-bottom: 1px solid #999;
 
-    .box-3 {
-        width: 200px;
-        height: 40% !important;
-        padding-top: 10px;
-        h3 {
-            color: #555 !important;
-        }
-        .img {
-            height: 40%;
-            object-fit: cover;
-        }
-    }
+                .img {
+                    height: 40%;
+                    object-fit: cover;
+                }
+            }
 
-    .box-4 {
-        width: 200px;
-        height: 40% !important;
-        padding-top: 10px;
-        .img {
-            height: 40%;
-            object-fit: cover;
-        }
-    }
-    .fb {
-        width: 310px;
-    }
+            .box-3 {
+                width: 200px;
+                height: 40% !important;
+                padding-top: 10px;
+
+                h3 {
+                    color: #555 !important;
+                }
+
+                .img {
+                    height: 40%;
+                    object-fit: cover;
+                }
+            }
+
+            .box-4 {
+                width: 200px;
+                height: 40% !important;
+                padding-top: 10px;
+
+                .img {
+                    height: 40%;
+                    object-fit: cover;
+                }
+            }
+
+            .fb {
+                width: 310px;
+}
+}
+}
 }
 
-.fa-facebook:hover {
-    color: #f50;
-}
 
-.box-1:hover {
-    background-color: #f50;
-    color: #fff;
-}
-
-.box-2:hover {
-    background-color: #f50;
-    color: #fff;
-}
-
-.box-3:hover {
-    background-color: #f50;
-    color: #fff;
-}
-
-.box-4:hover {
-    background-color: #f50;
-    color: #fff;
-}
