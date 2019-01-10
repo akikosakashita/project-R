@@ -357,6 +357,7 @@
             video {
                 width: 200px;
                 height: 50px;
+                margin-left:20px;
             }
         }
     }
@@ -380,6 +381,7 @@
             video {
                 width: 200px;
                 height: 50px;
+                margin-left:20px;
             }
         }
         }
@@ -402,6 +404,7 @@
             video {
                 width: 200px;
                 height: 50px;
+                margin-left:20px;
             }
         }
         }
@@ -424,11 +427,75 @@
             video {
                 width: 200px;
                 height: 50px;
+                margin-left:20px;
             }
         }
         }
     }
 }
+.video {
+        width: 1110px;
+        height: 300px;
+        margin-top: 20px;
+        .side-vi {
+            width: 250px;
+            height: 300px;
+            text-align: center;
+            float:left;
+        }
+        .vi-box {
+            width: 857px;
+            height: 300px;
+            float:left;
+            .vi-1 {
+                width: 857px;
+                height: 150px;
+                float:left;
+                background-color: #888;
+                .vi-1a {
+                    width: 600px;
+                    height: 150px;
+                    float:left;
+                    h3,p {
+                        color:#fff;
+                    }
+                }
+                .vi-1b {
+                    width: 254px;
+                    height: 150px;
+                    float: left;
+                    video {
+                width: 210px;
+                height: 130px;
+                margin: 10px 5px 10px 20px;
+            }
+         }
+         }
+            .vi-2 {
+                border:1px dotted black;
+                width: 856px;
+                height: 149px;
+                background-color: #888;
+                .vi-2a {
+                    border:1px dotted red;
+                    width: 600px;
+                    height: 150px;
+                    float:left;
+
+                }
+                .vi-2b {
+                    border:1px dotted red;
+                    width: 254px;
+                    height: 150px;
+                    float: left;
+                    video {
+                width: 210px;
+                height: 130px;
+                margin: 10px 5px 10px 20px;
+            }
+                }
+        }
+    }
 }
 
 
@@ -525,5 +592,4 @@
 .box-4:hover {
     background-color: #f50;
     color: #fff;
-}
 }
