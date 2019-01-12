@@ -2,6 +2,35 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 @import "bootstrap";
 
+
+.fa-facebook:hover {
+        color: #f50!important;
+    }
+.box-1:hover {
+        color:#fff;
+        background-color: #f50!important;
+        transform: scale(1.1);  /*画像の拡大率*/
+        transition-duration: 0.3s;
+}
+.box-2:hover {
+        color:#fff;
+        background-color: #f50!important;
+        transform: scale(1.1);  /*画像の拡大率*/
+        transition-duration: 0.3s;
+}
+.box-3:hover {
+        color:#fff;
+        background-color: #f50!important;
+        transform: scale(1.1);  /*画像の拡大率*/
+        transition-duration: 0.3s;
+}
+.box-4:hover {
+        color:#fff;
+        background-color: #f50!important;
+        transform: scale(1.1);  /*画像の拡大率*/
+        transition-duration: 0.3s;
+}
+
 //*mixin定義//*///////////////////////////////////////////////////////
 @mixin ex-style {
     width: 857px;
@@ -828,7 +857,3 @@
                         }
                     }
                 }
-
-.box-1 h4:hover {
-        color: red;
-    }
