@@ -36,7 +36,7 @@
 @mixin ex-style {
     width: 857px;
     height: 36px;
-    background-color: #e82;
+    background-color: orange;
     box-shadow: 2px 2px 4px gray;
     color: #fff;
     padding: 5px 0 0 30px;
@@ -226,7 +226,16 @@
                 text-orientation: mixed;
             }
         }
-
+        position: relative;
+        .box01 {
+            position: absolute;
+            z-index: -1;
+            background-color: orange;
+            top: 200px;
+            left: 0;
+            width: 500px;
+            height: 850px;
+        }
         .main-2 {
             width: 400px;
             height: 800px;
@@ -238,21 +247,9 @@
                 line-height: 2;
             }
         }
-
-        position: relative;
-
-        .box01 {
-            position: absolute;
-            z-index: -1;
-            background-color: orange;
-            top: 200px;
-            left: 380px;
-            width: 500px;
-            height: 550px;
-        }
     }
 
-    .history {
+    #history {
         width: 100%;
         height: 1400px;
         padding: 100px 0 10px 0;
@@ -386,7 +383,7 @@
         }
     }
 
-    .sample {
+    #sample {
         width: 100%;
         height: 1200px;
         background-color: #ddd;
@@ -633,15 +630,14 @@
 
 
 
-        @media (max-width: 768px) {
+@media (max-width:768px) {
             .sns-cover {
-                padding: 5px !important;
+                padding: 5px!important;
                 height: 20px;
 
                 .sns {
-
-                    // font-size: 10px;
-                    // display: none;
+                    font-size: 10px;
+                    display: none;
                     h5 {
                         font-size: 10px;
                     }
@@ -880,3 +876,161 @@
                         }
                     }
                 }
+/////*////////////////////////////////////////////*////////
+@media (max-width:768px) {
+.sns-cover {
+    height: 15px;
+    .sns {
+    height: 15px;
+   .Welcome {
+    height: 15px;
+        font-size:14px;
+    }
+    .fa-facebook {
+        display:none;
+    }
+    }
+    }
+
+    .hero {
+    width: 100%;
+    height: 450px;
+
+    .top-logo {
+        width: 300px;
+        height: 450px;
+        padding-top:210px;
+    img {
+        width: 100%;
+    }
+}
+    .kage {
+
+        height: 450px;
+        img {
+            width: 100%;
+            right:20px;
+        }
+    }
+}
+
+.secotion {
+    height: 810px;
+.big-box {
+    width: 768px;
+    height: 800px;
+    .left {
+        width: 360px;
+        height: 400px;
+    }
+
+    .fb {
+        width: 460px;
+        height: 400px;
+
+    }
+    .record {
+    display:none;
+    }
+}
+}
+#about {
+    width: 100%;
+    height: 2000px;
+    padding: 10px 0 0 0;
+
+    .profile {
+        height: 1600px;
+
+        .header-1 {
+            padding:50px 0 0 15px;
+            border-bottom: 2px solid #444;
+        }
+
+        .space-1 {
+            width: 350px;
+            height: 100px;
+            padding: 30px 0 10px 0;
+            float:left;
+        }
+
+        .main-1 {
+            width: 250px;
+            height: 600px;
+            padding: 100px 0 0 0;
+            float: left;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .cp1 {
+            width: 70px;
+            height: 700px;
+            overflow: hidden;
+            float: left;
+            margin: 100px 10px 10px 10px;
+
+            h3 {
+                -ms-writing-mode: tb-rl;
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+            }
+        }
+        position: relative;
+        .box01 {
+            position: absolute;
+            z-index: -1;
+            background-color: orange;
+            top: 200px;
+            left: 0;
+            width: 500px;
+            height: 850px;
+        }
+        .main-2 {
+            width: 400px;
+            height: 800px;
+            margin: 100px 0 0 10px;
+            float: left;
+
+            p {
+                font-size: 20px;
+                line-height: 2;
+            }
+        }
+    }
+
+    // #history {
+    //     width: 100%;
+    //     height: 1400px;
+    //     padding: 100px 0 10px 0;
+    //     background-color: #ddd;
+
+    //     .header-2 {
+    //         border-bottom: 2px solid #444;
+    //     }
+
+    //     .space-2 {
+    //         width: 900px;
+    //         height: 1200px;
+    //         background-color: #bbb;
+    //         padding: 50px 30px;
+    //         margin: auto;
+
+    //         p {
+    //             font-size: 16px;
+    //             line-height: 2;
+    //             a {
+    //                 color: #e62;
+    //             }
+    //             strong {
+    //                 font-size:20px;
+    //             }
+    //         }
+    //     }
+    // }
+}
+}
+
+
