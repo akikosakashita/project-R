@@ -59,15 +59,37 @@
 
 
 .hero {
-    background: url(../images/2-1.png) 0 0 no-repeat / cover;
+    background: url(../images/bgc.png) center center no-repeat / cover;
     width: 100%;
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    position: relative;
+    .top-logo {
+        width: 500px;
+        height: 700px;
+        text-align: center;
+        padding-top:350px;
+         position: absolute;
+         z-index:2;
     img {
-        width: 50%;
+        width: 100%;
+    }
+}
+    .kage {
+        width: 1110px;
+        height: 700px;
+        position: absolute;
+        z-index:1;
+        position: relative;
+        overflow:hidden;
+        img {
+            width: 100%;
+            position: absolute;
+            right:0;
+            bottom:-80px;
+        }
     }
 }
 
